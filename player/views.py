@@ -6,4 +6,4 @@ from gameplay.models import Game
 
 
 def home(request):
-    return render(request, 'player/home.html', {'ngames': Game.objects.count()})  # pylint: disable=E1101
+    return render(request, 'player/home.html', {'ngames': Game.objects.count()})
